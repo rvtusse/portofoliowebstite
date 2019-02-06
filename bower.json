@@ -1,13 +1,13 @@
 {
-  "name": "portfolio-website-p1",
-  "description": "Portfolio Website deployed in Azure",
+  "name": "portfolio-website",
+  "description": "Portfolio Website hosted on heroku",
   "main": "",
   "authors": [
-    "Lucy <HaeYeon.Kang@MyGeorgian.ca>"
+    "Herve <hervetusse@gmail.com>"
   ],
   "license": "MIT",
   "moduleType": [],
-  "homepage": "https://github.com/lucykang/Portfolio-Website",
+  "homepage": "https://github.com/rvtusse/portofoliowebstite",
   "ignore": [
     "**/.*",
     "node_modules",

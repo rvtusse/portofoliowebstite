@@ -1,10 +1,4 @@
-/*
-File name: index.js
-Author's name: Hae Yeon Kang (Lucy)
-web site name: Hae Yeon's Portfolio Website
-URL: haeyeonkang.azurewebsites.net
-file description: This file will help visiters to navigate within the website.
-*/
+
 
 var express = require('express');
 var ejs = require('ejs');
@@ -37,7 +31,7 @@ router.get('/contact', function (req, res, next) {
 });
 
 /* send email request */
-/* This code is sending email but at the same time, shows error on the page.
+ //This code is sending email but at the same time, shows error on the page.
 
 router.post('/contact', function (req, res) {
     //setup nodemailer transport
@@ -78,5 +72,5 @@ router.post('/contact', function (req, res) {
         }
     });
 });
-*/
+
 module.exports = router;
